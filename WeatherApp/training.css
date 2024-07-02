@@ -1,0 +1,22 @@
+div {
+  border: solid black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#countlable {
+  display: block;
+  text-align: center;
+  font-size: 5em;
+}
+#buttoncontainer {
+  display: block;
+  text-align: center;
+  border: none;
+}
+button {
+  border-radius: 10px;
+}
+button:hover {
+  background-color: aquamarine;
+  border-radius: 10px;
+}

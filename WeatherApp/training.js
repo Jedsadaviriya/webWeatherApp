@@ -165,3 +165,26 @@ document.getElementById("mysubmitR").onclick = function () {
 };
 // { Lesson 6 }
 // session 2 left off at 52:30
+// { Lesson 7 } counter app but without the help of the video and i will time it
+const increase = document.getElementById("increase");
+const decrease = document.getElementById("decrease");
+const reset = document.getElementById("reset");
+const counter = document.getElementById("countlable");
+let counternum = 0;
+
+increase.onclick = function () {
+  counternum++;
+  counter.textContent = counternum;
+};
+
+decrease.onclick = function () {
+  counternum--;
+  counter.textContent = counternum;
+};
+
+reset.onclick = function () {
+  counternum = 0;
+  counter.textContent = counternum;
+};
+// { Lesson 7 } the app was make in aprox 17 minuites
+// session 3 done leaving the vid on 01:01:47
