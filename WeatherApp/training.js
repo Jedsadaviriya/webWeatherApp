@@ -188,3 +188,33 @@ reset.onclick = function () {
 };
 // { Lesson 7 } the app was make in aprox 17 minuites
 // session 3 done leaving the vid on 01:01:47
+
+// { Lesson 8 } Math function
+
+Math.PI;
+console.log(Math.PI);
+console.log(Math.E);
+let mx = 3.2;
+let my = 2;
+let mz = 1;
+
+//rounds
+// mz = Math.round(x);
+//rounds down
+// mz = Math.floor(x);
+// rounds up
+// mz = Math.ceil(x);
+// mz = Math.trunc(x);
+// mz = Math.pow(x, y);
+// mz = Math.sqrt(x);
+// mz = Math.log(x);
+// mz = Math.sin(x);
+// mz = Math.cos(x);
+// mz = Math.tan(x);
+// mz = Math.abs(x);
+// mz = Math.sign(x);
+// let max = Math.max(x, y, z);
+// let min = Math.min(x, y, z);
+
+console.log(max);
+// end session 4 at 01:07:09
