@@ -216,5 +216,34 @@ let mz = 1;
 // let max = Math.max(x, y, z);
 // let min = Math.min(x, y, z);
 
-console.log(max);
+console.log(`1`);
 // end session 4 at 01:07:09
+// { Lesson 8 }
+
+// { Lesson 9 }
+
+// const minRan = 50;
+// const maxRan = 100;
+
+// let randomNum = Math.floor(Math.random() * (maxRan)) + minRan;
+
+// console.log(randomNum);
+
+const dicebutton = document.getElementById("dicebutton");
+const dice1 = document.getElementById("dice1");
+const dice2 = document.getElementById("dice2");
+const dice3 = document.getElementById("dice3");
+const mindice = 1;
+const maxdice = 6;
+let randomNumdice1;
+let randomNumdice2;
+let randomNumdice3;
+
+dicebutton.onclick = function () {
+  randomNumdice1 = Math.floor(Math.random() * maxdice) + mindice;
+  randomNumdice2 = Math.floor(Math.random() * maxdice) + mindice;
+  randomNumdice3 = Math.floor(Math.random() * maxdice) + mindice;
+  dice1.textContent = randomNumdice1;
+  dice2.textContent = randomNumdice2;
+  dice3.textContent = randomNumdice3;
+};
